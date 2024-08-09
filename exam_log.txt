@@ -1,0 +1,86 @@
+    1  mkdir -p linux_practice
+    2  cd linux_practice
+    3  touch notes.txt
+    4  ls
+    5  echo >> notes.txt
+    6  cat notes.txt
+    7  echo "Hello,Linux!" > notes.txt
+    8  echo "This is a practical exam." >> notes.txt
+    9  head notes.txt
+   10  tail notes.txt
+   11  mkdir subdir
+   12  ls
+   13  mv notes.txt subdir
+   14  ls
+   15  cd subdir
+   16  mv src subdir practice_subdir
+   17  mv src source subdir practice_subdir
+   18  mv subdir source practice_subdir
+   19  mv practice_subdir source subdir
+   20  cd ../..
+   21  cd linux_practice
+   22  ls
+   23  mv src source subdir practice_subdir
+   24  mv src practice_subdir subdir
+   25  ren subdir practice_subdir
+   26  cd subdir
+   27  ls
+   28  cd ../
+   29  mv subdir practice_subdir
+   30  ls
+   31  cd practice_subdir
+   32  ls
+   33  cp notes.txt linux_practice
+   34  cd ../
+   35  ls
+   36  cp notes.txt linux_practice
+   37  cd practice_subdir
+   38  ls
+   39  cat linux_practice
+   40  rm linux_practice
+   41  ls
+   42  cp notes.txt
+   43  cd ../
+   44  ls
+   45  cp notes.txt
+   46  cd practice_subdir
+   47  ls
+   48  cp linux_practice notes.txt
+   49  cd ../
+   50  ls
+   51  cp linux_practice notes.txt
+   52  cp notes.txt linux_practice
+   53  cd practice_subdir
+   54  ls
+   55  cp notes.txt
+   56  cp --help
+   57  cp -r notes.txt linux_practice
+   58  cd ../
+   59  ls
+   60  cd practice_subdir
+   61  ls
+   62  rm linux_practice
+   63  cd ../
+   64  ls
+   65  cp notes.txt practice_subdir
+   66  cd practice_subdir
+   67  cp notes.txt practice_subdir
+   68  ls
+   69  rm practice_subdir
+   70  ls
+   71  cp notes.txt
+   72  cp notes.txt notes.txt
+   73  date
+   74  uptime
+   75  cd ../..
+   76  df -h
+   77  SSH -v
+   78  PHP -v
+   79  Mysql -v
+   80  Apache -v
+   81  Apache2 -v
+   82  Python3 --version
+   83  python3 --version
+   84  openjdk-17 --version
+   85  git checkout -b finalexam
+   86  history > exam_log.txt
